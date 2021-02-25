@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build('carcamagno/example-app')
+        app = docker.build('mgreg64/example-app')
     }
 
     stage('Push image') {
